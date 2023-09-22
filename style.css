@@ -37,6 +37,11 @@ body{
     width: 28px;
     height: 28px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+#login:hover, #carrinho:hover{
+    transform: scale(1.5);
 }
 
 #linha{
@@ -58,15 +63,12 @@ body{
     width:400px ;
     height:500px ;
     padding: 10px;
-    filter: blur(2px);
 }
 
 #cardapio, h1{
     text-align: center;
     margin-top: 50px;
 }
-
-
 
 #card1{
     padding-top: 20px;
@@ -81,7 +83,6 @@ body{
 
 #loc{
     padding-top: 300px;
-    
 }
 
 #imglocal{
@@ -103,12 +104,22 @@ body{
     padding: 30px;
 }
 
+#map{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#map:hover{
+    transform: scale(1.3);
+}
+
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     margin-left: 40%;
+    margin-top: 200px;
 }
 
 #logfooter{
@@ -123,10 +134,12 @@ body{
     justify-content: center;
     margin-top: 400px;
     flex-direction: column;
+    padding-top: 200px;
 }
 
 .pagamento{
     padding: 3px;
+    padding-top: 50px;
 }
 
 #rede{
@@ -135,6 +148,10 @@ body{
    padding-left: 50px;
 
 }
+
+
+
+
 
 
 

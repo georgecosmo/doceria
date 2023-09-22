@@ -58,7 +58,7 @@ body{
     width:400px ;
     height:500px ;
     padding: 10px;
-    
+    filter: blur(2px);
 }
 
 #cardapio, h1{
@@ -119,9 +119,14 @@ body{
 
 .itensfooter{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     margin-top: 400px;
-    
+    flex-direction: column;
+}
+
+.pagamento{
+    padding: 3px;
 }
 
 #rede{
